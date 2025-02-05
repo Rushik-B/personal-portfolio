@@ -15,8 +15,5 @@ What needs to be done? Provide a brief description of the task.
 - [ ] Step 2
 - [ ] Step 3
 
-## Label
-Add a relevant label for this task (e.g., "bug", "enhancement", "documentation").
-
 ## Additional Notes
 Include any extra details, links, or resources that might help with this task.
