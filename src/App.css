@@ -226,6 +226,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	background-color: #fff;
 	height: 2px;
 }
+nav.navbar .navbar-nav a.nav-link.navbar-link[href$=".pdf"] {
+  opacity: 0.75;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link[href$=".pdf"]:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link[href$=".pdf"].active {
+  opacity: 1;
+}
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
 	background-color: #fff;
@@ -606,21 +615,82 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.contact form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
+
 
 .contact form button:hover::before {
   width: 100%;
 }
+
+
+.contact-text {
+  color: #fff;
+}
+
+.message-text {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.form-control {
+  background: #2d2d2d;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+.send-button {
+  width: 100%;
+  padding: 15px;
+  background: #ffffff; /* White background initially */
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #000; /* Black text initially */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.send-button:hover {
+  background: #000000; /* Black background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-text-box {
+    padding: 40px;
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .contact-text-box p {
+    font-size: 18px; /* Slightly smaller text on smaller screens */
+  }
+}
+
+
 
 /************ Footer Css ************/
 .footer {
