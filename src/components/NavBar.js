@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Placeholder } from "react-bootstrap";
 import logo from '../assets/img/IMG_0128-removebg-preview.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
@@ -8,6 +8,8 @@ import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
+import ResumePlaceholder from '../assets/img/Resume-Placeholder.pdf';
+
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -57,10 +59,10 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
               <Nav.Link 
-                href="/resume.pdf" 
+                href={ResumePlaceholder} 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} 
+                className={`nav-link navbar-link ${activeLink === 'resume' ? 'active' : ''}`} 
                 onClick={() => onUpdateActiveLink('resume')}
               >
                 Resume
