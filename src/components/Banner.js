@@ -98,9 +98,18 @@ export const Banner = () => {
                   web technologies. Looking for opportunities to apply my skills in real-world projects and 
                   internships.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let's Connect! <ArrowRightCircle size={25} />
+                  <button 
+                    className="connect-button" // Changed from send-button to new class
+                    onClick={() => window.open("https://www.linkedin.com/in/rushik-behal/", "_blank")}
+                    style={{
+                      width: 'auto',
+                      padding: '14px 48px',
+                      marginTop: '60px'
+                    }}
+                  >
+                    <span style={{ color: '#000' }}>Let's Connect!</span> 
                   </button>
+
                 </div>
               )}
             </TrackVisibility>
