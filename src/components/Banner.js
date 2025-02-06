@@ -14,10 +14,11 @@ export const Banner = () => {
   const [isHovering, setIsHovering] = useState(false);
 
   const toRotate = [
-    "Rushik",
-    "a Computer Science Student",
-    "a Web Developer",
-    "a Problem Solver"
+    "Rushik.",
+    "a Computer Science Student.",
+    "a Programmer.",
+    "a Web Developer.",
+    "a Problem Solver."
   ];
   const period = 1000;
 
@@ -83,16 +84,19 @@ export const Banner = () => {
                     {"Hi! I'm"}{" "}
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Rushik", "a Computer Science Student", "a Web Developer", "a Problem Solver"]'
+                      dataPeriod="100"
+                      
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
+                  
+                  <div style={{ height: '50px' }}></div>  {/*Empty div as spacer */}
+
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
+                  Aspiring software developer with a strong foundation in coding, problem-solving, and 
+                  web technologies. Looking for opportunities to apply my skills in real-world projects and 
+                  internships.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let's Connect! <ArrowRightCircle size={25} />
