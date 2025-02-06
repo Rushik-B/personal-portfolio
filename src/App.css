@@ -334,7 +334,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner-image {
-  width: 10%;
+  width: 100%;
   max-width: 200px;  /* Reduced from 250px for smaller size */
   height: auto;
   transition: all 0.3s ease;
@@ -348,6 +348,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   aspect-ratio: 1/1;  /* Perfect circle aspect ratio */
   object-fit: cover;
 }
+
+
+.connect-button {
+  width: auto;
+  padding: 14px 48px;
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-button:hover {
+  background: #000000;
+}
+
+.connect-button:hover span,
+.connect-button:hover svg {
+  color: #ffffff !important;
+}
+
+.connect-button span,
+.connect-button svg {
+  transition: all 0.3s ease;
+}
+
 
 
 
