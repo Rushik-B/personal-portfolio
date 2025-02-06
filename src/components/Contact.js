@@ -49,6 +49,13 @@ export const Contact = () => {
           {/* Left side text */}
           <Col md={5}>
             <div className="contact-text">
+              <h2 style={{ 
+                fontWeight: 'bold',
+                marginBottom: '20px'  // Adds space between heading and paragraph
+              }}>
+                Let's Connect!
+              </h2>
+              <div style={{ height: '30px' }}></div>  {/*Empty div as spacer */}
               <p className="message-text">
                 I'm always open to new opportunities and happy to connect. If you have a question or just want to reach out, feel free to send a message—I'll do my best to reply as soon as possible :)
               </p>
