@@ -226,14 +226,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	background-color: #fff;
 	height: 2px;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link[href$=".pdf"] {
-  opacity: 0.75;
-}
-
-nav.navbar .navbar-nav a.nav-link.navbar-link[href$=".pdf"]:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link[href$=".pdf"].active {
-  opacity: 1;
-}
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
@@ -340,6 +332,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+.banner-image {
+  width: 10%;
+  max-width: 200px;  /* Reduced from 250px for smaller size */
+  height: auto;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 15px rgba(170, 54, 124, 0.3));
+  transform-origin: center center;
+}
+
+.egg-shape {
+  border-radius: 50%;  /* Perfect circle */
+  overflow: hidden;
+  aspect-ratio: 1/1;  /* Perfect circle aspect ratio */
+  object-fit: cover;
+}
+
+
 
 /************ Projects Css ************/
 .project {

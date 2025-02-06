@@ -15,7 +15,6 @@ export const Footer = () => {
             style={{ 
               width: '130px', 
               height: '170px',     
-              
               transform: 'rotate(50deg)',
               transformOrigin: 'center',
               transition: 'transform 0.3s ease-in-out',

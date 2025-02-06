@@ -113,16 +113,22 @@ export const Banner = () => {
             }}
           >
             <div className="banner-image-container">
-              <img 
-                src={require("../assets/img/profile-pic.png")} 
-                alt="Profile"
-                className="banner-image"
-                style={{
-                  transform: `translate3d(${position.x}px, ${position.y}px, 0) scale(${isHovering ? 1.05 : 1})`,
-                  transition: isHovering ? 'transform 0.1s linear' : 'transform 0.3s ease-out'
-                }}
-              />
+            <img 
+              src={require("../assets/img/IMG_63C98045A56D-1.jpeg")} 
+              alt="Profile"
+              className="banner-image egg-shape"
+              style={{
+                width: '300px',    
+                height: '300px',
+                
+                transform: `translate3d(${position.x}px, ${position.y}px, 0) scale(${isHovering ? 1.05 : 1})`,
+                transition: isHovering ? 'transform 0.1s linear' : 'transform 0.3s ease-out'
+              }}
+            />
             </div>
+            <div style={{ height: '100px' }}></div>  {/*Empty div as spacer */}
+
+
           </Col>
         </Row>
       </Container>
