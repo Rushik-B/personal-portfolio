@@ -85,7 +85,7 @@ export const NavBar = () => {
                   <img src={navIcon2} alt="GitHub" />
                 </a>
                 <a 
-                  href="https://www.instagram.com/rushikk_/" 
+                  href="https://www.x.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >

@@ -40,14 +40,14 @@ export const Footer = () => {
                 <img src={navIcon2} alt="GitHub" />
               </a>
               <a 
-                href= "https://www.instagram.com/rushikk_/"
+                href= "https://www.x.com"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <img src={navIcon3} alt="Instagram" />
               </a>
             </div>
-            <p>© 2024 Rushik Behal. All rights reserved.</p>
+            <p>© 2025 Rushik Behal. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
