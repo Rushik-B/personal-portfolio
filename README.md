@@ -6,22 +6,12 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+I chose the MIT License for my portfolio website because it’s simple, flexible, and aligns with my goals as a student developer. Here’s my reasoning:
 
-### `npm start`
+- **Simplicity**: The license is short and easy to understand, letting me focus on showcasing my coding skills rather than legal complexities.
+- **Freedom for others**: It allows anyone to use, modify, or distribute my code—even commercially—without requiring them to share their changes. This fits my desire to encourage collaboration and learning.
+- **Low maintenance**: Since my portfolio is personal and educational, MIT avoids complicated contributor agreements while still protecting my original work.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For a class project aimed at demonstrating technical ability, MIT strikes the perfect balance between openness and practicality.
 
 

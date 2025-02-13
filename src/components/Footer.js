@@ -47,7 +47,7 @@ export const Footer = () => {
                 <img src={navIcon3} alt="Instagram" />
               </a>
             </div>
-            <p>© 2024 Rushik Behal. All rights reserved.</p>
+            <p>© 2025 Rushik Behal. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
