@@ -1,0 +1,52 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.js
+
+# Build files
+/build/
+/.next/
+
+# Cache
+.cache/
+
+# Environment variables
+.env*.local
+.env
+
+# Logs
+*.log
+logs/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+*.swp
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+/coverage/
+
+# Production dependencies
+**/public/static
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional local config
+*.local
