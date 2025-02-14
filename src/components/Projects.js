@@ -14,19 +14,19 @@ export const Projects = () => {
       title: "Personal Portfolio Project",
       description: "Made a personal portfolio website using React, React-bootstrap and Animate.css",
       imgUrl: projImg1,
-      projectUrl: "https://your-portfolio-link.com" // Add your project URL here
+      projectUrl: "https://github.com/Rushik-B/personal-portfolio" 
     },
     {
-      title: "Placeholder",
-      description: "Loreum Ipseum.....",
+      title: "Animated Flowers",
+      description: "Used HTML and CSS to design and animate flowers growing",
       imgUrl: projImg2,
-      projectUrl: "https://project2-link.com" // Add your project URL here
+      projectUrl: "https://github.com/Rushik-B/flowers" 
     },
     {
       title: "Placeholder",
       description: "Loreum Ipseum.....",
       imgUrl: projImg3,
-      projectUrl: "https://project3-link.com" // Add your project URL here
+      projectUrl: "https://project3-link.com" 
     },
   ];
 
