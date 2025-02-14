@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.1425b9cc.css",
+    "main.js": "/personal-portfolio/static/js/main.d9408c1a.js",
+    "static/media/project-img1.png": "/personal-portfolio/static/media/project-img1.1e80e02857e50a0f6553.png",
+    "static/media/IMG_63C98045A56D-1.jpeg": "/personal-portfolio/static/media/IMG_63C98045A56D-1.d5aba726fc8f7e2678eb.jpeg",
+    "static/media/project-img2.png": "/personal-portfolio/static/media/project-img2.d5ebce61d87b44a12a5c.png",
+    "static/media/color-sharp2.png": "/personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/banner-bg.png": "/personal-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/IMG_0128-removebg-preview.png": "/personal-portfolio/static/media/IMG_0128-removebg-preview.6bfa07c27ed6ab37aadb.png",
+    "static/media/project-img3.png": "/personal-portfolio/static/media/project-img3.ce496e009c9d85ad09c9.png",
+    "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/personal-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/Resume-Placeholder.pdf": "/personal-portfolio/static/media/Resume-Placeholder.8a63cba71ff75cee0fad.pdf",
+    "static/media/logo.svg": "/personal-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/nav-icon2.svg": "/personal-portfolio/static/media/nav-icon2.cb7cbcf72a3eceb98e7b0a04a28db8ac.svg",
+    "static/media/nav-icon3.svg": "/personal-portfolio/static/media/nav-icon3.d2f98bf195e8a6335cc0d14121b4fa06.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.1425b9cc.css.map": "/personal-portfolio/static/css/main.1425b9cc.css.map",
+    "main.d9408c1a.js.map": "/personal-portfolio/static/js/main.d9408c1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1425b9cc.css",
+    "static/js/main.d9408c1a.js"
+  ]
+}
