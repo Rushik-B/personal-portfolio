@@ -269,16 +269,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 1;
 }
 
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
-}
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
@@ -312,35 +302,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-.banner button:hover svg {
-  margin-left: 25px;
-}
-.banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+
+.banner-image-container {
+  position: relative;
+  padding: 40px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.banner-image {
-  width: 100%;
-  max-width: 200px;  /* Reduced from 250px for smaller size */
-  height: auto;
-  transition: all 0.3s ease;
-  filter: drop-shadow(0 0 15px rgba(170, 54, 124, 0.3));
-  transform-origin: center center;
+
+
+.banner-image:hover {
+  filter: drop-shadow(0 0 25px rgba(74, 47, 189, 0.5));
 }
+
+
 
 .egg-shape {
   border-radius: 50%;  /* Perfect circle */
@@ -868,59 +844,16 @@ textarea.form-control {
   margin-top: 20px;
 }
 
-/* Subtle gradient animation */
-@keyframes gradientFlow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 
-.banner .tagline {
-  background: linear-gradient(90deg, rgba(170, 54, 124, 0.5), rgba(74, 47, 189, 0.5), rgba(170, 54, 124, 0.5));
-  background-size: 200% auto;
-  animation: gradientFlow 15s ease infinite;
-}
 
 
-/* Banner Image Styles */
-.banner-image-container {
-  position: relative;
-  padding: 20px;
-  overflow: hidden;
-  cursor: pointer;
-}
 
-.banner-image {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  transition: all 0.3s ease;
-  filter: drop-shadow(0 0 15px rgba(170, 54, 124, 0.3));
-  transform-origin: center center;
-}
 
-.banner-image:hover {
-  filter: drop-shadow(0 0 25px rgba(74, 47, 189, 0.5));
-}
 
-@media (max-width: 768px) {
-  .banner-image {
-    max-width: 300px;
-    margin: 40px auto 0;
-  }
-}
 
-/* Remove existing updown animation */
-@keyframes updown {
-  /* Remove this keyframe */
-}
+
+
 
 
 
